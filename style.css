@@ -1,0 +1,49 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center align text within .hero */
+}
+
+.back-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.clock-container {
+    z-index: 1; /* Ensure clock is above video */
+    margin-bottom: 20px; /* Adjust spacing between clock and buttons */
+}
+
+.clock {
+    font-size: 3rem; /* Adjust size as needed */
+    display: inline-block; /* Ensure clock takes only necessary space */
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Optional: Adjust spacing between clock and buttons */
+}
+
+.button-container button {
+    margin: 0 10px; /* Adjust spacing between buttons */
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}

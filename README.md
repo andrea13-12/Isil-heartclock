@@ -7,7 +7,7 @@ A simple and elegant digital clock that displays the current time using heart sy
 
 ## 📋 Table of Contents
 
-- [Features](#features)
+- [Features](#features "Goto -features")
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
